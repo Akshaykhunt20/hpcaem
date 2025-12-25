@@ -1,0 +1,41 @@
+{
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://mcstaging.healthyplanetcanada.com/graphql",
+      "commerce-endpoint": "https://catalog-service.adobe.io/graphql",
+      "headers": {
+        "all": {
+          "Store": "default"
+        },
+        "cs": {
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "en",
+          "Magento-Website-Code": "base",
+          "x-api-key": "590e06c8472641f19379c5499f6eb3d7",
+          "Magento-Environment-Id": "69159dfa-3214-44f5-a014-0239747f7388"
+        }
+      },
+      "commerce-assets-enabled": false,
+      "analytics": {
+        "base-currency-code": "CAD",
+        "environment": "Testing",
+        "environment-id": "69159dfa-3214-44f5-a014-0239747f7388",
+        "store-code": "main_website_store",
+        "store-id": "main_website_store",
+        "store-name": "EN",
+        "store-url": "https://mcstaging.healthyplanetcanada.com/",
+        "store-view-code": "en",
+        "store-view-id": "en",
+        "store-view-name": "EN",
+        "website-code": "base",
+        "website-id": "base",
+        "website-name": "Healthy Planet"
+      },
+      "plugins": {
+        "picker": {
+          "rootCategory": "2"
+        }
+      }
+    }
+  }
+}
